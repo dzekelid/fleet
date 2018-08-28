@@ -1,0 +1,109 @@
+{
+	"name": "Streadata.io API Gallery - Fleet",
+	"description": "This is a repository of fleet APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/fleet.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://fleet.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Telogis",
+			"x-api-slug": "telogis",
+			"description": "Our GPS fleet management software can help your business reduce fuel costs, improve productivity and customer service. Learn more about how our easy to use dashboards can help you monitor vehicle and driver performance, organize your fieldworkers with ...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1362-telogis.jpg",
+			"humanURL": "http://www.telogis.com/solutions/geobase/geostream-silverstream/",
+			"baseURL": "https:///",
+			"tags": "Fleet",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/fleet/master/_listings/telogis/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HERE",
+			"x-api-slug": "here",
+			"description": "HERE Technologies enables people, enterprises and cities around the world to harness the power of location and create innovative solutions that make our lives safer and more efficient. We transform information from devices, vehicles, infrastructure and...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg",
+			"humanURL": "https://developer.here.com",
+			"baseURL": "https://weather.cit.api.here.com//weather/1.0",
+			"tags": "Fleet",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/fleet/master/_listings/here/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS AppStream",
+			"x-api-slug": "aws-appstream",
+			"description": "Amazon AppStream is a fully managed, secure application streaming service that allows you to stream desktop applications from AWS to any device running a web browser, without rewriting them. Amazon AppStream 2.0 provides users instant-on access to the applications they need, and a responsive, fluid user experience on the device of their choice.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/appstream2_try_it_now_2_big.png",
+			"humanURL": "https://aws.amazon.com/appstream2/",
+			"baseURL": ":///",
+			"tags": "Fleet",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/fleet/master/_listings/aws-appstream/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2",
+			"x-api-slug": "aws-ec2",
+			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/",
+			"baseURL": ":///",
+			"tags": "Fleet",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/fleet/master/_listings/aws-ec2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TomTom",
+			"x-api-slug": "tomtom",
+			"description": "Global leader in navigation, traffic and map products, GPS Sport Watches and fleet management solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28267-developer-tomtom-com.jpg",
+			"humanURL": "https://developer.tomtom.com",
+			"baseURL": "https:///",
+			"tags": "Fleet",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/fleet/master/_listings/tomtom/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Fleet",
+	"include": [
+		{
+			"name": "Telogis",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/fleet/master/_listings/telogis/apis.yaml"
+		},
+		{
+			"name": "HERE",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/fleet/master/_listings/here/apis.yaml"
+		},
+		{
+			"name": "AWS AppStream",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/fleet/master/_listings/aws-appstream/apis.yaml"
+		},
+		{
+			"name": "AWS EC2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/fleet/master/_listings/aws-ec2/apis.yaml"
+		},
+		{
+			"name": "TomTom",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/fleet/master/_listings/tomtom/apis.yaml"
+		}
+	]
+}
